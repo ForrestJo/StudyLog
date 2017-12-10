@@ -1,0 +1,7 @@
+1，CLONE
+对于Git，最常见的操作就是克隆现有的项目，git clone repository;
+然后进入项目目录，并从云端下载具体的版本，
+cd directory  
+git checkout branch
+
+2，COMMIT
