@@ -4,4 +4,8 @@
 cd directory  
 git checkout branch
 
-2，COMMIT
+2，checkout，发现有修改而无法checkout，
+git reset --hard
+
+3,对比两个版本
+git diff tag1 tag2
