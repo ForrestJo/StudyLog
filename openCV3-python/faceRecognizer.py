@@ -16,7 +16,7 @@ def read_images(csvfile):
         y.append(int(row[1])); 
     csvfile.close; return [X, y]
 
-[X, y] = read_images('../
+[X, y] = read_images('../train.csv')
 
 #训练
 model = cv2.face.EigenFaceRecognizer_create()
