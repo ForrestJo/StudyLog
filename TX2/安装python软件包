@@ -1,12 +1,18 @@
 pip安装python包时会出现速度非常慢的现象，安装一个包少则四五分钟，多则十几分钟，
 可能是tx2的cpu核心是A57,和X86比还是有很大差距，导致编译时慢，所以建议尽量用apt安装：
 
-ipython
+apt install git
+
+ipython3
+
+python-virtualenv
+python3-virtualenv
 numpy
 scipy
 pandas
 flask
 sklearn
+matplotlib
 
 
 
