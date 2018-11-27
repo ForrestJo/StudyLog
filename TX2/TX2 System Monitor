@@ -1,0 +1,34 @@
+方法一：
+running ~/tegrastats
+
+
+RAM 2371/7846MB (lfb 1026x4MB) 
+CPU [45%@2035,off,off,55%@2035,51%@2035,53%@2035] 
+EMC_FREQ 5%@1600 
+GR3D_FREQ 69%@140 
+APE 150 BCPU@40.5C MCPU@40.5C GPU@39.5C PLL@40.5C Tboard@38C Tdiode@38.5C PMIC@100C thermal@40C VDD_IN 2906/2850 VDD_CPU 535/373 VDD_GPU 305/298 VDD_SOC 535/478 VDD_WIFI 38/129 VDD_DDR 747/718
+
+EMC – memory controller
+AVP – audio/video processor
+VDE – video decoder engine
+GR3D – GPU
+
+
+方法二：
+sudo ~/jetson_clocks.sh --show
+sudo: unable to resolve host tx2
+SOC family:tegra186  Machine:quill
+Online CPUs: 0,3-5
+CPU Cluster Switching: Disabled
+cpu0: Gonvernor=schedutil MinFreq=345600 MaxFreq=2035200 CurrentFreq=1420800
+cpu1: Gonvernor=schedutil MinFreq=345600 MaxFreq=2035200 CurrentFreq=806400
+cpu2: Gonvernor=schedutil MinFreq=345600 MaxFreq=2035200 CurrentFreq=806400
+cpu3: Gonvernor=schedutil MinFreq=345600 MaxFreq=2035200 CurrentFreq=1113600
+cpu4: Gonvernor=schedutil MinFreq=345600 MaxFreq=2035200 CurrentFreq=1267200
+cpu5: Gonvernor=schedutil MinFreq=345600 MaxFreq=2035200 CurrentFreq=1267200
+GPU MinFreq=140250000 MaxFreq=1122000000 CurrentFreq=586500000
+EMC MinFreq=40800000 MaxFreq=1600000000 CurrentFreq=1331200000 FreqOverride=0
+Fan: speed=0
+
+
+
