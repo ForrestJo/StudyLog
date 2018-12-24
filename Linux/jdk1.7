@@ -1,0 +1,38 @@
+安装java7
+# 1. oracle openjdk ppa source
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo apt-get install openjdk-7-jdk  // OpenJdk 7安装：
+
+
+java11
+
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt-get update
+sudo apt-get install oracle-java11-installer
+
+
+该版本java设为默认
+sudo apt-get install oracle-java11-set-default
+
+
+配置想要的版本
+sudo update-alternatives --config javap
+sudo update-alternatives --config javadoc
+sudo update-alternatives --config jar 
+sudo update-alternatives --config javah
+sudo update-alternatives --config jarsigner
+
+在.bashrc中配置$JAVA_HOME
+#java-7
+export JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd64"
+#java-8
+#export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+
+export JRE_HOME=${JAVA_HOME}/jre
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
+export PATH=${JAVA_HOME}/bin:$PATH
+
+查看java是否安装成功
+java -version
+
