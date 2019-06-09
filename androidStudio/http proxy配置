@@ -1,0 +1,21 @@
+
+在站长之家网站ping dl.google.com，查看检测结果
+网站地址：ping.chinaz.com
+
+(ping google.com，都是超时的）
+
+
+修改hosts文件：
+sudo gedit /etc/hosts
+
+在hosts文件中添加：
+
+203.208.41.68 dl.google.com
+203.208.41.68 dl.l.google.com
+203.208.41.68 dl-ssl.google.com
+
+
+正题：
+在Android Studio的http proxy中选择“没有代理”
+
+
