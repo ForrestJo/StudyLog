@@ -16,3 +16,37 @@ matplotlib
 
 
 
+jetpack4.2
+nvidia download address:
+https://developer.nvidia.com/embedded/downloads
+
+----------------------------------------------------------------------
+sudo apt-get install libhdf5-serial-dev hdf5-tools
+sudo apt-get install zlib1g-dev zip libjpeg8-dev libhdf5-dev
+pip3 install numpy grpcio absl-py py-cpuinfo psutil portpicker grpcio six mock requests gast astor termcolor --user
+
+----------------------------------------------------------------------
+tensorflow:
+https://developer.download.nvidia.com/compute/redist/jp/v42/tensorflow-gpu/tensorflow_gpu-1.13.1+nv19.3-cp36-cp36m-linux_aarch64.whl
+
+使用命令pip3 install tensorflow_gpu-1.13.1+nv19.3-cp36-cp36m-linux_aarch64.whl --user进行安装
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
