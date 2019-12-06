@@ -1,0 +1,19 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Matlab
+Name[zh_CN]=
+Comment=Eclipse IDE
+
+
+Exec=/usr/local/MATLAB/R2018a/bin/matlab -desktop
+
+
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Application;Matlab;
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=
+X-KDE-Username=
+Icon=/usr/local/MATLAB/R2018a/ui/online_license_management/images/bg_global_logo.jpg
